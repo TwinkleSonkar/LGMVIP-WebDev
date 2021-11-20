@@ -1,0 +1,495 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+/* SLIDE  */
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+	background: blueviolet;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+
+}
+
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+	font-family: poppins;
+}
+
+ /* NAVIGATION */
+ #navabr1 a{
+     color: thistle;
+ }
+#navabr1 a:hover{
+    background-color: turquoise;
+ }
+#navbarSupportedContent a{
+    color: rgb(224, 217, 217);
+}
+#navbarSupportedContent a:hover{
+    background-color: turquoise;
+}
+ .navbar-nav a {
+	font-family: poppins;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+ /* WELCOME */
+ #welcome{
+     text-align: center;
+     margin-top: 5%;
+ }
+ #welcome p{
+     margin-top: 7%;
+     margin-left: 22%;
+     margin-bottom: 7%;
+     text-align:center;
+ }
+ #welcome img{
+    margin-top: 5%;
+ }
+ #welcome-to{
+     text-align: center;
+     padding: auto;
+ }
+ #welcome-to svg{
+     background-color: aqua;
+     padding: auto;
+    border-radius: 50%;
+   
+ }
+#hell h5  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#hell p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-right-style:solid ;
+    
+}
+#hell button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: yellow;
+    color:  black;
+}
+#bell h5  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#bell p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-right-style:solid ;
+}
+#bell button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: yellow;
+    color:  black;
+}
+#jell h5  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#jell p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#jell button{
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    background-color: yellow;
+    color:  black;
+}
+#jell button:hover{
+    background-color: rgb(75, 0, 82);
+}
+#hell button:hover{
+    background-color: rgb(75, 0, 82);
+}
+#bell button:hover{
+    background-color: rgb(75, 0, 82);
+
+}
+#welcome-to{
+   border: line;
+}
+
+/* PROJECTS  */
+#projects h2{
+    border-top-style: solid;
+}
+#projects{
+    text-align: center;
+}
+#projects h2{
+    text-align:center;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+#projects h4{
+    margin-top: 4%;
+}
+#projects h4 p{
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+#projects button{
+    margin-bottom: 8%;
+    background-color: rgb(241, 228, 33);
+    color: rgb(255, 255, 255);
+    margin-top: 4%;
+}
+#proj1 button:hover{
+    background-color: rgb(7, 43, 143);
+}
+#proj2 button:hover{
+    background-color: rgb(7, 43, 143);
+}
+#proj3 button:hover{
+    background-color: rgb(7, 43, 143);
+}
+#proj4 button:hover{
+    background-color: rgb(7, 43, 143);
+}
+
+/* pricing table  */
+
+#table{
+    background-color: rgb(240, 235, 235);
+    text-align: center;
+    margin-top: 5%;
+}
+#table h2{
+    margin-bottom: 5%;
+}
+
+#table h4{
+    margin-bottom: 5%;
+    color: black;
+}
+#table button{
+    margin-top: 5%;
+    width: 25%;
+    margin-bottom: 10%;
+    background-color: yellow;
+}
+#learn button{
+    margin-bottom: 12%;
+}
+#price1 button:hover{
+    background-color: blue;
+}
+#price2 button:hover{
+    background-color: blue;
+}
+#price3 button:hover{
+    background-color: blue;
+}
+/* video  */
+
+.vid{
+    height: 250px;
+    width: 400px;
+    /* margin-bottom: 50px; */
+}
+#Video-Project{
+    background-color: rgb(165, 30, 165);
+}
+#video{
+    margin-bottom: 5%;
+}
+#vide0o1{
+    margin-bottom: 5%;
+}
+#video2{
+    margin-bottom: 5%;
+}
+#video3{
+    margin-bottom: 5%;
+}
+ 
+/* newsletter signup  */
+#news{
+    text-align: center;
+}
+#news h1{
+    color: white;
+}
+.SignUp{
+    background-image: url("image/bridge.jpg");
+    /* background-repeat: no-repeat;*/
+    height: 300px;
+   /*width: 00px; */
+   background-size: cover;
+   background-position: center;
+}
+#letter{
+    margin-top: 7%;
+}
+#letter .btn:hover{
+    background-color: blue;
+}
+
+#project h1{
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+/* ZIPPY TEAM  */
+#team{
+    text-align: center;
+    background-color:honeydew;
+    margin-top: 3%;
+ }
+#team h2{
+      margin-bottom: 5%;
+      margin-top: auto;
+    
+}
+#tea img{
+        border-radius: 60%;
+        margin-bottom: 5%;
+}
+
+#tea h4{
+        margin-bottom: 3%;
+}
+#teaa img{
+        border-radius: 60%;
+        margin-bottom: 5%;
+}
+#teaa h4{
+        margin-bottom: 3%;
+}
+    
+#teas img{
+        border-radius: 60%;
+        margin-bottom: 5%;
+}
+    
+#teas h4{ 
+        margin-bottom: 3%;
+}
+#row-col h4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#row-col img{ 
+     border-radius: 60%;
+}
+#roww-col h4{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#roww-col img{
+     border-radius: 60%;
+}
+#rows-col h4{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#rows-col img
+{
+     border-radius: 60%;
+}
+    
+#backimg{
+        background-image: url("image/mountain.jpg");
+        max-width: 100%;
+}
+    
+    #footer{
+        margin-top: 4%;
+        background-color: rgb(214, 205, 205);
+    }
+    #four{
+      
+        background-color: rgb(176, 219, 245);
+    }
+    #four h1{
+        margin-top: 3%;
+    }
+    #two{
+        margin-top: 6%;
+        margin-left: 3%;
+    }
+    #one{
+        margin-left: 3%;
+    }
+    #zero{
+        margin-left: 3%;
+    }
+    .form-check formoo{
+        margin-left: 3%;
+    }
+    .form-check{
+        margin-left: 3%;
+    }
+    #send{
+        margin-bottom: 3%;
+        margin-top: 3%;
+        text-align: center;
+    }
+    .d-flex{
+        margin-left: 55%;
+        margin-top: 9%;
+        margin-bottom: 6%;
+    }
+#news{
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+/* blog  */
+
+#blog{
+    margin-top: 4%;
+    text-align: center;
+  
+}
+#blog h1{
+    margin-bottom: 3%;
+}
+#blog a{
+    background-color: yellow;
+}
+#blog a:hover{
+    background-color: blue;
+
+}
+#life{
+    text-align: center;
+    background-color: rgb(206, 202, 206);
+}
+#life img{
+    margin-bottom: 5%;
+}
+#life h1{
+    margin-bottom: 3%;
+}
+#insta{
+    margin-top: 6%;
+    text-align: center;
+}
+#footer{
+    margin-top: 4%;
+    background-color: rgb(214, 205, 205);
+}
+#four{
+  
+    background-color: rgb(176, 219, 245);
+}
+#four h1{
+    margin-top: 3%;
+}
+#two{
+    margin-top: 6%;
+    margin-left: 3%;
+}
+#one{
+    margin-left: 3%;
+}
+#zero{
+    margin-left: 3%;
+}
+.form-check formoo{
+    margin-left: 3%;
+}
+.form-check{
+    margin-left: 3%;
+}
+#send{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    text-align: center;
+}
+#send button{
+    background-color: yellow;
+    color: black;
+} 
+#send button:hover{
+    background-color: blue;
+}
+.d-flex{
+    margin-left: 55%;
+    margin-top: 9%;
+    margin-bottom: 6%;
+}
+#life{
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+}
+
+#life img {
+    margin-bottom: 6%;
+}
+#life h1{
+    margin-top: 4cm;
+    margin-bottom: 5%;
+}
+#blo{
+    background-color: honeydew;
+}
+#colm{
+    margin-left: 3%;
+}
+#blo h1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
